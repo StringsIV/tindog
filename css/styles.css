@@ -1,0 +1,160 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: 400;
+}
+
+p {
+  color: #8f8f8f;
+  line-height: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Section Styles */
+#navbarMenu01 {
+  padding-right: 10%;
+}
+
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 5%;
+}
+
+#features {
+  position: relative;
+}
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.colored {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white {
+  background-color: #fff;
+}
+
+/* Titles & Headings */
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.section-heading {
+  font-size: 3rem;
+}
+
+.card-header {
+  font-size: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+/* Title Image */
+.tit-img {
+  position: absolute;
+  width: 50%;
+  transform: rotate(25deg);
+  margin-left: 3%;
+}
+
+/* Download Buttons */
+.dl-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features Section */
+.feature {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  padding-bottom: 18px;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial & Press Section */
+.testimonial-img {
+  max-width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Footer Section */
+.contact-btn-group {
+  padding-bottom: 1;
+}
+
+/* Media Queries */
+@media (max-width:1028px) {
+  #title .container-fluid {
+    text-align: center;
+  }
+
+  .tit-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
